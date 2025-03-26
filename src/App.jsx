@@ -46,8 +46,8 @@ function App() {
         <h1>My Vite React App 2</h1>
         <nav>
           <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
           </ul>
         </nav>
         <Routes>
